@@ -1,0 +1,3 @@
+primary = #171c32
+secondary = #4c84ff
+accent = #252c48

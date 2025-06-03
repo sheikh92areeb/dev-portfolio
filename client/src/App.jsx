@@ -1,10 +1,11 @@
 import React from 'react'
+import Home from './pages/Home'
 
 const App = () => {
   return (
-    <div className="bg-[#171c32] w-full min-h-screen">
-      hello
-    </div>
+    <>
+      <Home />
+    </>
   )
 }
 

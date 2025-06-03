@@ -1,8 +1,38 @@
 @import "tailwindcss";
 
+
+/* Light Theme (default) */
 :root {
-  --primary-color: #171c32;
-  --secondary-color: #4c84ff;
-  --accent-color: #252c48;
-  --color-white: #FFF;
+  --background: #FFFFFF;
+  --primary-color: #4d63dd;
+  --accent-color: #666666;
+  --text: #222222;
+}
+
+/* Dark Theme overrides */
+body.dark {
+  --background: #121212;
+  --primary-color: #657eff;
+  --accent-color: #bbbbbb;
+  --text: #f0f0f0;
+}
+
+/* Utility Classes */
+.bg-primary {
+  background-color: var(--primary-color);
+}
+.bg-accent {
+  background-color: var(--accent-color);
+}
+.bg-background {
+  background-color: var(--background);
+}
+.text-primary {
+  color: var(--primary-color);
+}
+.text-accent {
+  color: var(--accent-color);
+}
+.text-base {
+  color: var(--text);
 }
